@@ -11,7 +11,13 @@ This program is built to demonstrate the behaviour of mutual exclusion in java l
  * run - Loop to 100 launching the threads.
 
  * main - Create an array of Mutex with a size of two and initialize and start the program.
+ 
+ ### Clone
 
+ ```bash
+ git clone git@github.com:ffhenkes/mutex-sample.git && cd mutex-sample
+ ```
+ 
  ### Compile
 
  ```bash
