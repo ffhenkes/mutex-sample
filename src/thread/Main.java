@@ -55,7 +55,7 @@ class Mutex extends Thread {
         }
     }
 
-    /* Start and array of processes (threads) */
+    /* Start an array of processes (threads) */
     public static void main(String[] args) {
         int N = 2;
         Mutex[] processes = new Mutex[N];
