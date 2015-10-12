@@ -38,7 +38,7 @@ This program is built to demonstrate the behaviour of mutual exclusion in java l
  make run
  ```
 
- ### Cleaning
+ ### Clean
 
  ```bash
  make clean
