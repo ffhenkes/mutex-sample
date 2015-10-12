@@ -1,5 +1,6 @@
 *iml
 .idea/
+bin/
 out/
 target/
 *class

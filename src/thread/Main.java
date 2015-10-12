@@ -23,15 +23,18 @@ class Mutex extends Thread {
     /* The array manipulation itself */
     private void busy() {
         try {
+
+            /* random sleep time for mix thread execution on purpose */
             sleep(rand.nextInt(500));
 
             orbital++;
 
+            /* the first arriving thread set the mutation */
             if (mutation[orbital] == 0) {
                 mutation[orbital] = rand.nextInt();
             }
 
-            System.out.println("Mutation gene is " + mutation[orbital] + " in orbital " + orbital + " with threadId " + threadId);
+            System.out.println("Mutation value is " + mutation[orbital] + " in orbital " + orbital + " with threadId " + threadId);
         }
         catch (InterruptedException e) {
             e.printStackTrace();
