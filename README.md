@@ -1,4 +1,4 @@
-## Simple Mutual Exclusion Java Example
+## Simple Mutual Exclusion Java Sample
 
 This program is built to demonstrate the behaviour of mutual exclusion in java language.
 
